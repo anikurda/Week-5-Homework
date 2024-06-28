@@ -1,22 +1,157 @@
-h2 {
+/* Header */
+
+header {
+    width: 1440px;
+    margin: auto;
+    padding: 38px 130px;
+    background-color: #2A9D8F;
+}
+
+.header_logo_link {
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header_logo {
+    width: 100%;
+    height: 100%;
+}
+
+.header_nav {
+    display: inline-block;
+    margin-left: 701px;
+    vertical-align: top;
+}
+
+li {
+    display: inline-block;
+}
+
+.middle_li {
+    margin-inline: 80px;
+}
+
+.nav_content {
     font-family: "Nerko One", cursive;
-    font-size: 80px;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+/* Section */
+
+.content_section {
+    width: 1440px;
+    margin: auto;
+    padding: 80px 130px;
+    background-color: #C2F3EE;
+}
+
+.section_image {
+    display: inline-block;
+    width: 600px;
+    height: 560px;
+    margin-right: 116px;
+    vertical-align: top;
+}
+
+.article1 {
+    display: inline-block;
+    width: 460px;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.p1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    margin-block: 24px 48px;
+    line-height: 27px;
+}
+
+button {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    background-color: #2A9D8F;
+    color: #FFFFFF;
+    border: none;
+    width: 113px;
+    height: 46px;
 }
 
 
 
-
-
-
-
-
-/* Header */
-
-
-/* Section */
-
-
 /* Article */
 
+.article2 {
+    width: 780px;
+    margin: 120px auto;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    color: #06686E;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 80px;
+}
+
+.p2 {
+    font-family: "Nerko One", cursive;
+    font-size: 24px;
+    color: #337C81;
+    text-align: justify;
+    letter-spacing: 0.5%;
+    line-height: 36px;
+}
 
 /* Footer */
+
+footer {
+    width: 1440px;
+    margin: auto;
+    background-color: #2A9D8F;
+    padding: 88px 130px;
+}
+
+.footer_logo_link {
+    width: 98px;
+    height: 98px;
+    vertical-align: top;
+    margin-right: 900px;
+    display: inline-block;
+}
+
+.footer_section {
+    display: inline-block;
+    width: 148px;
+}
+
+h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.footer_nav {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.middle_li_footer {
+    margin-block: 8px;
+}
